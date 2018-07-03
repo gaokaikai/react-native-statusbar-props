@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/bhsj_imac/Desktop/workspace/smart-garage/ReactApp/node_modules/react-native-statusbar-props/android/src/main/jniLibs"/></dataSet><dataSet config="release"><source path="/Users/bhsj_imac/Desktop/workspace/smart-garage/ReactApp/node_modules/react-native-statusbar-props/android/src/release/jniLibs"/></dataSet></merger>

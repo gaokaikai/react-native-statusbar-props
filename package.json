@@ -1,0 +1,11 @@
+{
+  "name": "react-native-statusbar-props",
+  "version": "1.0.0",
+  "description": "一个获取状态栏属性的包 支持安卓ios",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gaokaikai",
+  "license": "MIT"
+}
