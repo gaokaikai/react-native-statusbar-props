@@ -44,7 +44,7 @@ import com.statusbar.props.RCTStatusbarPropsPackage;
 ```
 import statusbarprops from 'react-native-statusbar-props';
 
-statusbarprops.getHeight(val=>{console.log(val)})
+console.log(statusbarprops.height)
 ```
 
 # github地址

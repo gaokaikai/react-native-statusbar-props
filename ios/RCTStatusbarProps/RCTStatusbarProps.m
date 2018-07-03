@@ -10,10 +10,10 @@
 #import <UIKit/UIKit.h>
 @implementation RCTStatusbarProps
 RCT_EXPORT_MODULE();
-RCT_EXPORT_METHOD(getHeight:(RCTResponseSenderBlock)callback) {
-    
+
+- (NSDictionary *)constantsToExport
+{
     CGRect rectOfStatusbar = [[UIApplication sharedApplication] statusBarFrame];
-    callback([NSArray arrayWithObject:[NSNumber numberWithDouble:rectOfStatusbar.size.height]]);
-    
+    return @{ @"HEIGHT": [NSNumber numberWithDouble:rectOfStatusbar.size.height]};
 }
 @end
